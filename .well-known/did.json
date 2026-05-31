@@ -1,0 +1,22 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:oralcytotdc.github.io",
+  "assertionMethod": [
+    {
+      "id": "did:web:oralcytotdc.github.io#b581c08614cc3a104a78b5d50606a963b75ef4126f410bc0263b7a9051a4f172",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:oralcytotdc.github.io",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "P-256",
+        "x": "W6ejHVrchOk4n7hqJU4l86sJqJG6AfwoUuauvMdAF5c=",
+        "y": "2ZNZ_F1ortx3B5Txs8KGcCbu1xZEqTYhNzPBDmXGmkI=",
+        "kid": "b581c08614cc3a104a78b5d50606a963b75ef4126f410bc0263b7a9051a4f172",
+        "alg": "ES256"
+      }
+    }
+  ]
+}
